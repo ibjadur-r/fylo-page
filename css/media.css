@@ -1,0 +1,95 @@
+@media screen and (max-width: 400px) {
+    header {
+        padding: 20px 30px;
+    }
+
+    .logo img {
+        width: 60%;
+    }
+
+    nav ul li a {
+        font-size: 11px;
+    }
+
+    .fylo-hero {
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+
+    .fylo-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fylo-content h1 {
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .fylo-content form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fylo-content form input {
+        width: 100%;
+    }
+
+    .fylo-illus {
+        width: 100%;
+    }
+
+    .curve {
+        background-image: url(../img/bg-curve-mobile.svg);
+        height: 50px;
+    }
+
+    .further-content-box {
+        flex-direction: column-reverse;
+    }
+
+    .further-content {
+        width: 100%;
+    }
+
+    .further-content h1 {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .further-content a {
+        text-align: center;
+    }
+
+    .early-access {
+        flex-direction: column;
+    }
+
+    .ea-text {
+        width: 100%;
+    }
+
+    .ea-text h2 {
+        font-size: 25px;
+    }
+
+    .early-access form {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .early-access form input {
+        width: 100%;
+    }
+
+    .link-box {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .s-links {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
